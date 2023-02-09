@@ -51,5 +51,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Initial display work to show jurisdiction on the Person pages
 
 
+## [2.1.67.RC] - 2023-02-09 
+
+### Added
+
+- Change Betr-OH to Betr
+- Change default credit/debit amount back to 50
+- Test Account Filter on Customer Sportsbook Performance
+- Adding Stake Factor Trading Group and Cohort columns to Market Activity
+- Test Account Filter on Wagering Activity
+- Bulk Credit
+- Each Way Terms in Market Management
+- Wallet tab Export XLS
+- [Bulk Credit] Import Table API
+
+### Fixed
+
+- Adding bet notes in BO is bugged (incorrect username) and unable to add bet notes in general
+- Unable to access Empty Competitions in Market Management
+- Crediting an account prod back office
+- Withdrawal data not being reflected in the back office
+- Newly created user notes do not link with note_user table
 
 # Chameleon Sportsbook
