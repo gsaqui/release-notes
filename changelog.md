@@ -12,6 +12,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Platform
 
+## [6.6.424] - 2023-02-16
+### Added
+- Created api for betbuilder
+- Updated async betting api to only include one reason why the bet was rejected  
+- Add Responsible Gambling deposit limit of 2500 for people under 26
+
+### Fixed
+- Store phone in user address for existing users
+- Rounding to 2 digits in the user wallet activity endpoint
+- Fix an issue with race condition when attempting to withdraw by the same person
+
+
+
 ## [6.6.422] - 2023-02-02
 
 ### Added
