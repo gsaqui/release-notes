@@ -43,15 +43,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Back Office
 
-## [3.11.11] - 2023-02-02
-
-### Added
-- Do not allow editing of email address in the Back office 
-- Add filter to be able to filter out Test Accounts in the financial reports
-- Initial display work to show jurisdiction on the Person pages
-
-
-## [2.1.67.RC] - 2023-02-09 
+## Frontend [2.1.67]  Api [3.11.12.1] - 2023-02-16 
 
 ### Added
 
@@ -71,5 +63,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Crediting an account prod back office
 - Withdrawal data not being reflected in the back office
 - Newly created user notes do not link with note_user table
+
+## [3.11.11] - 2023-02-02
+
+### Added
+- Do not allow editing of email address in the Back office
+- Add filter to be able to filter out Test Accounts in the financial reports
+- Initial display work to show jurisdiction on the Person pages
+
 
 # Chameleon Sportsbook
