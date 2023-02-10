@@ -24,6 +24,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Fix an issue with race condition when attempting to withdraw by the same person
 
 
+## [6.6.423] - 2023-02-10
+
+### Fixed
+- Fixing the order that wallet caches are applied
+- Force clearing of wallet caches
+
+
 
 ## [6.6.422] - 2023-02-02
 
