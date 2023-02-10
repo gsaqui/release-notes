@@ -63,7 +63,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Bulk Credit
 - Each Way Terms in Market Management
 - Wallet tab Export XLS
-- [Bulk Credit] Import Table API
 
 ### Fixed
 
