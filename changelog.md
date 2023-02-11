@@ -24,6 +24,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Fix an issue with race condition when attempting to withdraw by the same person
 
 
+## [6.6.423-2] - 2023-02-11
+
+### Fixed
+- Wrapped atom cache around bonus conversion, so it can only happen once
+
 ## [6.6.423] - 2023-02-10
 
 ### Fixed
