@@ -24,6 +24,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Fix an issue with race condition when attempting to withdraw by the same person
 
 
+## [6.6.423-4] - 2023-02-13
+
+### Fixed
+- Changing identifier sent to IDComply to use KeyCloak ID instead of customer internal ID
+- Fix max withdrawal amount being blocked
+
 ## [6.6.423-2] - 2023-02-11
 
 ### Fixed
