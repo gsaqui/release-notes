@@ -12,6 +12,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Platform
 
+## [6.6.424-2] - 2023-02-16
+### Fixed
+- Bonusing through the backoffice was debiting the user wallet balance by 50 USD
+- Very slow query causing the background queues to overload and then the query max the cpu of the database
+
 ## [6.6.424] - 2023-02-16
 ### Added
 - Created api for betbuilder
