@@ -12,6 +12,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Platform
 
+## [6.6.425] - 2023-03-02
+### Added
+- First iteration of bet performance increases
+- Pushing all bet notes to the BO
+- API to allow customers to disable their account.  This is needed as the customer can currently delete their account which causes problems in both SB and FU back offices.
+- Accept Geolocation tokens
+- Block the `Shipping Address` shown on PayPal deposits
+- Rabbit MQ topology changes
+- Adding different urls for IDComply based on the state
+- 
+### Fixed
+- Paysafe rejecting single quotes in a persons name
+- PayPal withdrawals being rejected for certain floats
+
+
 ## [6.6.424-3] - 2023-02-16
 ### Fixed
 - Bonusing through the backoffice was debiting the user wallet balance by 50 USD
