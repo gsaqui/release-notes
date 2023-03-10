@@ -11,8 +11,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 
 # Platform
+## [6.6.427] - 2023-03-16
+### Added
+- Second iteration of bet performance increases
+- Signup bonus when a person passes KYC
+- Showing paypal as a preferred payment option after a customer deposits
+- Add RabbitMq topology changes for Massachusetts
+- Hard limit api updates
+- Api for PaySafe bank transfer deposits
+- Adding Jurisdiction header - needed for multi-state
 
-## [6.6.425] - 2023-03-02
+### Fixed
+- Bet information in slack creating two entries and in wrong currency
+
+
+
+## [6.6.425-4] - 2023-03-02
 ### Added
 - First iteration of bet performance increases
 - Pushing all bet notes to the BO
