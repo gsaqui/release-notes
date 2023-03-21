@@ -95,6 +95,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Back Office
 
+## Frontend [2.1.69]
+
+### Added
+
+- Adding Stake Factor Trading Group and Cohort columns to Market Activity
+- Bulk Credit
+- Test Account Filter on Wagering Activity
+- Add site_id in all the FE calls
+- Backoffice Search Update Basic Search API 
+- Compliance Reporting
+- Change default credit/debit amount back to 50
+- Use userId(customerId) for search and revert personalId page 
+- Dark mode proof of concept
+- Update WL for betr
+- Wallet tab Export XLS 
+### Fixed
+
+- adding bet notes in BO is bugged (incorrect username) and unable to add bet notes in general
+- newly created user notes do not link with note_user table
+- [Betr-US] Bonus being granted not actually being a bonus but a debit from the user wallet
+- fix pending withdrawals to match the mock
+- Withdrawal data not being reflected in the back office
+- Form Submission: Unable to access Empty Competitions in Market Management
+
 ## Frontend [2.1.67]  Api [3.11.12.1] - 2023-02-16 
 
 ### Added
