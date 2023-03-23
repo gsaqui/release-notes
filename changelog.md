@@ -11,6 +11,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 
 # Platform
+## [6.6.428] - 2023-03-30
+### Added
+- Jurisdiction header (feature switched off)
+- Handling of encrypted geotoken (feature switched off)
+- First release of multi state bet acceptance (featured switched off)
+- Convert user_wallet queue to fanout exchange 
+- Datadog metrics for async api
+- Long term self exclusion list (multi state solution)
+- Trigger alert when sum of total successful deposits for an account > 1000 USD + Sum accepted stakes (bets placed, not rejected) <= 100 USD, withdrawal request for full balance
+
+### Fixed
+- Increasing speed data flowing to BO
+
+
+
 ## [6.6.427] - 2023-03-16
 ### Added
 - Second iteration of bet performance increases
