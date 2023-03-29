@@ -121,7 +121,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ### Fixed
 
-- [prod][User Profile - Finish Review] The BO user can not finish a review when only one is displayed
+- The BO user can not finish a review when only one is displayed
 - Betr - no longer able to finish review on an account
 - use the base button fix button colors for darkmode
 - SE and time-out missing type in compliance report - self exclusion page
