@@ -110,6 +110,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Back Office
 
+## Frontend [2.1.70]
+
+## Added
+
+- Add Bonus Stake and Bonus GGR fields to the XLS Export of Wagering Activity report 
+- Test Account Filter on Customer Sportsbook Performance
+- Change bet stop time to be directly associated with futures flag
+- Separate out filters by feature on Audits Report
+
+### Fixed
+
+- [prod][User Profile - Finish Review] The BO user can not finish a review when only one is displayed
+- Betr - no longer able to finish review on an account
+- use the base button fix button colors for darkmode
+- SE and time-out missing type in compliance report - self exclusion page
+- Unable to access Empty Competitions in Market Management
+- WL Aggregate not applying to Security Alerts - BO
+- Unable to view entries on the wallet tab and getting error message (some accounts only)
+- Bulk Credit not leaving correct notes / Accounts not being credited when there is no Note
+
 ## Frontend [2.1.69]
 
 ### Added
