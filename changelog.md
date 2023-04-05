@@ -110,6 +110,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Back Office
 
+## Backend [3.11.17]
+
+## Added
+- Improved the performance of the flow between the CSB platform and Backoffice
+- Added tracking information to the logs into the whole data flow process
+
 ## Frontend [2.1.70]
 
 ## Added
