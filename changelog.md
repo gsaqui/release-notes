@@ -119,13 +119,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## Frontend [2.1.71]
 ## Added
 
-- [Individual Market Limits] API
-- [Individual Market Limits] Event Page changes
-- [Individual Market Limits] Individual Limits Modal
-- [CMS Casino] Base Page
-- [CMS Casino] Tabs and Tables 
-- [CMS Casino] Tabs and Tables Filters
-- [CMS Casino] Order Games FE
+- Individual Market Limits to Event Page changes
+- Individual Market Limits Individual Limits Modal
+- Casino Base Page
+- Casino Tabs and Tables
+- Casino Tabs and Tables Filters
+- Casino Order Games FE
 - Executive Summary Improvements
 - Activity Overview Charts - Improvements FrontEnd
 - Activity Overview Amendments Acquisition
@@ -133,14 +132,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Fixed
 
 - Layout issues on smaller screen
-- Form Submission: Unable to access Empty Competitions in Market Management
-- Form Submission: Executive Summary FE broken - Backoffice
+- Unable to access Empty Competitions in Market Management
+- Executive Summary FE broken - Backoffice
 - Unable to access event details and markets offered for HR competitions with a special character
 - Bulk Credit not leaving correct notes / Accounts not being credited when there is no Note
 - BO Pending withdrawals table gets smaller or disappears  Backoffice
-- [Sentry] - TypeError showing 5.9k in 24 hours
+- TypeError showing 5.9k in 24 hours
 - Selecting WL and closing the nav bar should persist after reload
-- Market settlement navigation 404
+- Market settlement navigation 404 error
 - Getting error message when trying to add a selection on the HR Antepost (Marsh Chase)
 
 ## Frontend [2.1.70]
