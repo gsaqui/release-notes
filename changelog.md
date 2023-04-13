@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Jurisdiction header (feature switched off)
 - Handling of encrypted geotoken (feature switched off)
 - First release of multi state bet acceptance (featured switched off)
-- Convert user_wallet queue to fanout exchange 
+- Convert user_wallet queue to fanout exchange
 - Datadog metrics for async api
 - Long term self exclusion list (multi state solution)
 - Trigger alert when sum of total successful deposits for an account > 1000 USD + Sum accepted stakes (bets placed, not rejected) <= 100 USD, withdrawal request for full balance
@@ -50,7 +50,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Block the `Shipping Address` shown on PayPal deposits
 - Rabbit MQ topology changes
 - Adding different urls for IDComply based on the state
-- 
+-
 ### Fixed
 - Paysafe rejecting single quotes in a persons name
 - PayPal withdrawals being rejected for certain floats
@@ -64,7 +64,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [6.6.424] - 2023-02-16
 ### Added
 - Created api for betbuilder
-- Updated async betting api to only include one reason why the bet was rejected  
+- Updated async betting api to only include one reason why the bet was rejected
 - Add Responsible Gambling deposit limit of 2500 for people under 26
 
 ### Fixed
@@ -95,16 +95,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [6.6.422] - 2023-02-02
 
 ### Added
-- Added Paypal as a payment service (deposit & withdrawal) 
+- Added Paypal as a payment service (deposit & withdrawal)
 - Added API to get the KYC status of the Person
 - On detection of duplicate account, create back office note on both accounts
 - Adding configuration for Massachusetts future release
 - Added API to limit the amount of time a Person can be on the site in 24 hours
 
 ### Fixed
-- Handling identical bet create message (stopping replay) 
+- Handling identical bet create message (stopping replay)
 - Fixed an issue with the hashing the last 4 digits of SSN
-- Stopped making calls to support system when logged out API is called 
+- Stopped making calls to support system when logged out API is called
 - Updated IdComply integration to pass Person ID opposed to email
 
 
@@ -116,11 +116,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Improved the performance of the flow between the CSB platform and Backoffice
 - Added tracking information to the logs into the whole data flow process
 
+## Frontend [2.1.71]
+## Added
+
+- [Individual Market Limits] API
+- [Individual Market Limits] Event Page changes
+- [Individual Market Limits] Individual Limits Modal
+- [CMS Casino] Base Page
+- [CMS Casino] Tabs and Tables 
+- [CMS Casino] Tabs and Tables Filters
+- [CMS Casino] Order Games FE
+- Executive Summary Improvements
+- Activity Overview Charts - Improvements FrontEnd
+- Activity Overview Amendments Acquisition
+
+### Fixed
+
+- Layout issues on smaller screen
+- Form Submission: Unable to access Empty Competitions in Market Management
+- Form Submission: Executive Summary FE broken - Backoffice
+- Unable to access event details and markets offered for HR competitions with a special character
+- Bulk Credit not leaving correct notes / Accounts not being credited when there is no Note
+- BO Pending withdrawals table gets smaller or disappears  Backoffice
+- [Sentry] - TypeError showing 5.9k in 24 hours
+- Selecting WL and closing the nav bar should persist after reload
+- Market settlement navigation 404
+- Getting error message when trying to add a selection on the HR Antepost (Marsh Chase)
+
 ## Frontend [2.1.70]
 
 ## Added
 
-- Add Bonus Stake and Bonus GGR fields to the XLS Export of Wagering Activity report 
+- Add Bonus Stake and Bonus GGR fields to the XLS Export of Wagering Activity report
 - Test Account Filter on Customer Sportsbook Performance
 - Change bet stop time to be directly associated with futures flag
 - Separate out filters by feature on Audits Report
@@ -144,13 +171,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Bulk Credit
 - Test Account Filter on Wagering Activity
 - Add site_id in all the FE calls
-- Backoffice Search Update Basic Search API 
+- Backoffice Search Update Basic Search API
 - Compliance Reporting
 - Change default credit/debit amount back to 50
-- Use userId(customerId) for search and revert personalId page 
+- Use userId(customerId) for search and revert personalId page
 - Dark mode proof of concept
 - Update WL for betr
-- Wallet tab Export XLS 
+- Wallet tab Export XLS
 ### Fixed
 
 - adding bet notes in BO is bugged (incorrect username) and unable to add bet notes in general
@@ -160,7 +187,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Withdrawal data not being reflected in the back office
 - Form Submission: Unable to access Empty Competitions in Market Management
 
-## Frontend [2.1.67]  Api [3.11.12.1] - 2023-02-16 
+## Frontend [2.1.67]  Api [3.11.12.1] - 2023-02-16
 
 ### Added
 
