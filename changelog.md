@@ -124,9 +124,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Casino Base Page
 - Casino Tabs and Tables
 - Casino Tabs and Tables Filters
-- Casino Order Games FE
+- Casino Order Games
 - Executive Summary Improvements
-- Activity Overview Charts - Improvements FrontEnd
+- Activity Overview Charts Improvements
 - Activity Overview Amendments Acquisition
 
 ### Fixed
