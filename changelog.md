@@ -156,6 +156,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Improved the performance of the flow between the CSB platform and Backoffice
 - Added tracking information to the logs into the whole data flow process
 
+## Frontend [2.1.72]
+
+## Added
+
+- Bonus Management UI Rework
+- Activity Overview Amendments Bonus & Conversion
+- Individual Market Limits Event Page
+- Bulk Credit modal text update
+- Casino Management
+
+### Fixed
+
+- Wagering Activity page goes to 404 when api send null data
+- Withdrawal amount gets deducted twice (pending and success)
+- Limit datepicker range to be max 5 years in the future for bonus
+- Added Country column BO Pending withdrawals
+- Duplicate stake column on the Wager Activity tab
+- Search DOB UI showing incorrect value
+- Closed Loop Error
+
+
 ## Frontend [2.1.71]
 ## Added
 
