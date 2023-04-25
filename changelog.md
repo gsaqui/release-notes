@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Fix bonus not appearing until 1 hour after being given
 
 ### Hashes of critical files
+```
 21593,4a77529762784aa0db93df116a12b004,d668e663a53554ea7c4acfcf5973914ba415c56c36db497b40126c20e1d8f5b7,app/Services/AsyncApiHelperService.php
 4505,64ea9c0baf798a8e180da5e3b909e3a2,a17ccf4df0fbf8171e9716192862f308caf0fcfbeb7b6775daa533d9750df865,app/Services/KeycloakService.php
 54312,739af43851e7ccc73671976a3acd12c9,42481cde162bb55ffcada02a61088ded21430c9ca1450cb9aacd5e7ea86b876a,app/Services/UserService.php
@@ -43,6 +44,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 13432,c5351ca41f6dc74afa1bc79bcb0f1710,7ac01abb728ffcdd6517b577347ab61828e80450a505314c9933c96d834bbd1f,app/Models/esp/Gambling/Bet.php
 20257,67be82e43d4a4d5ba2ba844f662065aa,d00fee6a261eff3ef818bb50f706464fe556ee24369580f23dcc5b41480a33a8,app/Models/esp/Gambling/BetGroup.php
 54359,63316cf0530d16bc3d73d698c897bd91,95570a5215e6fec1bf75c9d398b72c3db0450cc58d7f61280d8db7870679f934,app/Models/esp/Users/UserWallet.php
+```
 
 ## [6.6.428] - 2023-03-30
 ### Added
