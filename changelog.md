@@ -145,6 +145,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 # Back Office
 
+## Backend [3.12.0.1]
+
+## Added
+- Added casino controls api
+- Added bonus conversion feature
+- Added side_bet_id to BigQuery
+- Ordered market navigation tree
+
+### Fixed
+- Updated bonus API
+- Improved activity overview
+- Fixed images bug
+- Fixed closed loop error
+
+### Hashes of critical files
+```
+4637,5edec75db5c5dce283af285d4d5f65db,ad4fe99dc4b27a2b682f85c25064624a9e65829fcc6cf660133c78e4ea0dcee6,api/v1/currency/models.py
+838,fe803aef6eebd1b3b37fea86a62f3c5f,4fa119feed8abc8bf8c1192ad144ca442c5c69383bae8b9b0ef4ab18858784a3,api/v1/markets/betable_events/models.py
+492,218936182348a1b2f9905bc859a83fe6,3121c4fd85f74db30f65021ff5b3e6ba328141e1eefed3f1671a66b509b283e1,api/v1/markets/side_bet/models.py
+20983,86754952e53691eb2f785f73e0bb49be,15ec62f4b74428061d35f1090808f40645192709a5e7861bef9ea4f2fdcf1be1,api/v1/models.py
+7039,1a7195c3ca76e4f7306134fa3fbc7678,67abfe0b249e40822ff72ab1ce4214457fa299d96172b99ec1a8010d8553b356,api/v1/users/files/models.py
+912,a17e0026e801329038578fe6e2f9b710,7ac7de3640ebb771bd0bee87f53f92df7a8c24753be55a4979f91aca6a91f9b1,api/v1/users/kyc/models.py
+1054,9e708ed23c0043c362e2810e2b7ed254,441661dd8595401b1d89ef92919bffc0214170e8b7ea837caaebee3089981921,api/v1/users/logs/models.py
+539,6c587e0e4e939836de0838d569cc1731,77129fd1ac6cb66d8eb5c5114cd3015a482348f4ca3a4a028160c9058f93f712,api/v1/users/models.py
+5783,5bbc0b8a68a8b38fb5e5b2ba18b81c0c,87efd0ea57747999cdac1c59c88b924bd710d8f676fe6365f8c895feb1e8e34e,api/v1/users/notes/models.py
+12224,131fd5b7c9bad44a59e48606d00c31da,c2c0871618291d922ac03a78a79c517cb675582264b5d15ed4a029f505c0465a,api/v1/users/risk/models.py
+5787,942ad647dca8effae7bbc1ee38ac3c5f,5eb70e3449b79072c1dec9f0d1fba84f7bbc03653f10b92aad5df18303cc6e48,api/v1/users/self_exclude/models.py
+19513,62d331bec59c9c19f3a240e8dba890df,34c797a461b3ed29e0d4a737f27d8216d16f6eb267a13f54f45d0f0f04032f9b,api/v1/users/user/models.py
+1635,9aad445db3dce41f518886a7fa61d419,0a0f6b547db78f8f7234e51ce82c56f8cccc12771e3b830d6581b63017c1efd4,api/v1/users/username/models.py
+857,dc70cbf17ad02f9579046bb0e0b8e230,1bc4a1292f597f8dbf9bffcc172cd0d7ffbb6dfe6016782db0c121b7c3cf55ba,api/v1/users/verified/models.py
+```
+
 ## Backend [3.11.18]
 
 ## Added
